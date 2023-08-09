@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<title>DataBase Sample</title>
+</head>
+
+<body>
+	<h1>データベース</h1>
+	<p>開閉ログ</p>
+	<p>dev_id: send_date: is_open: comment</p>
+	<table border=1>
+		{% for d in data %}
+		<tr>
+			<td>{{d.dev_id}}</td>
+			<td>{{d.send_date}}</td>
+			<td>{{d.is_open}}</td>
+			<td>{{d.comment}}</td>
+		</tr>
+		{% endfor %}
+	</table>
+	
+</body>
+
+</html>
