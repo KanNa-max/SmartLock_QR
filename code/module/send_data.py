@@ -44,6 +44,6 @@ def check_key():
     return data['key_ope']
 
 
-# api_add(id = "aaa", is_open = "True", comment = "test")
+# api_add(id = "aaa", is_open = "Tru?e", comment = "test")
 # api_addKey(key_ope = "open")
 # check_key()
